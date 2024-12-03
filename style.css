@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8,8,8);
+}
+.img{
+    width: 200px;
+    height: 150px;
+
+    
+}
+.row-posters{
+    display: flex;
+    margin-right:0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    background-color: black;
+
+   
+}
+
+
+.img:hover{
+    transform: scale(1.08);
+}
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    
+     margin: 10px; 
+
+}
+h2{
+   color: white;
+   font-size: larger;
+   font-weight: bold;
+   margin-bottom: 2px;
+   margin-left: 5px;
+}
+.banner{
+    background: url(./images/Netflix\ Sits\ At\ 231\ Million\ Subscribers_.jpg);
+    background-size: cover;
+    color: white;
+    object-fit: contain;
+    height: 400px;
+   
+}
+.banner-content{
+    margin-left: 30px;
+    padding-top: 110px;
+    
+    
+}
+h1{
+font-size: 50px;
+font-weight: 900;
+margin-bottom: 10px;
+}
+.banner-desc{
+    width: 45rem;
+    padding-top: 1rem;
+    font-size: 20px;
+    max-width: 400px;
+    font-weight: bold;
+    
+}
+.banner-btn{
+    color: white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 100px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+.nav-avator{
+    width: 50px;
+    object-fit: contain;
+}
+.Menu{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.menu-item{
+    padding:15px;
+    
+    margin: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    
+    
+}
+.banner-fade{
+    background: linear-gradient(180deg, transparent rgb(8,8,8,rgb(8,8,8)));
+    height: 7.4rem;
+    margin-top: 145px;
+}
+.footer {
+    background-color: rgb(8, 8, 8);
+    border-top: white;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style-type: none;
+}
+
+.footer-links li,
+.footer-social li {
+    margin: 5px 0;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #e50914;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #b3b3b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
+/* Basic reset */
+
+
+
+.dropdown-container {
+    text-align: center;
+}
+
+/* Styling for the dropdown */
+.language-dropdown {
+    font-size: 18px;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px black;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Optional: Styling for the options */
+.language-dropdown option {
+    padding: 10px;
+}
